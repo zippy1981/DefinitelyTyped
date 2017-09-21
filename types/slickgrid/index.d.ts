@@ -1739,28 +1739,28 @@ declare namespace Slick {
 			enableExpandCollapse?: boolean;
 		}
 
-		//export class RemoteModel {
-		//	public data: any;
+		export class RemoteModel {
+			public data: any;
 
-		//	public clear(): any;
-		//	public isDataLoaded(): any;
-		//	public ensureData(): any;
-		//	public reloadData(): any;
-		//	public setSort(): any;
-		//	public setSearch(): any;
+			public clear(): any;
+			public isDataLoaded(): any;
+			public ensureData(): any;
+			public reloadData(): any;
+			public setSort(): any;
+			public setSearch(): any;
 
-		//	public onDataLoading: Slick.Event<OnDataLoadingEventData>;
-		//	public onDataLoaded: Slick.Event<OnDataLoadedEventData>;
+			public onDataLoading: Slick.Event<OnDataLoadingEventData>;
+			public onDataLoaded: Slick.Event<OnDataLoadedEventData>;
 
-		//}
+		}
 
-		//export interface OnDataLoadingEventData {
+		export interface OnDataLoadingEventData {
 
-		//}
+		}
 
-		//export interface OnDataLoadedEventData {
+		export interface OnDataLoadedEventData {
 
-		//}
+		}
 	}
 
 	export class Plugin<T extends Slick.SlickData> {
